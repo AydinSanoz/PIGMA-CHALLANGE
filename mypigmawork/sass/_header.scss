@@ -11,12 +11,13 @@ header{
 }
 
 .navbar-right{
+    margin-right: 20px;
     color: white;
     // background-color: #444444;
     display: flex;
     flex-flow: row nowrap;
-    width: 15%;
-    justify-content: space-around;
+    width: 25%;
+    justify-content: space-between;
     align-items: center;
     #register{
         color: red;
@@ -24,14 +25,18 @@ header{
 }
 
 .navbar-left{
-    background-image: url("../images/maxresdefault.jpg");
+    
+    background-image: url("./images/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     // background-image: url("https://picsum.photos/id/1025/600/400");
     background-size: cover;
     color: #eeeeee;
     // background-color: #555555;
     border: 1px solid gray;
     display: flex;
-    width: 7%;
+    width: 15%;
     justify-content: space-around;
     align-items: center;
 

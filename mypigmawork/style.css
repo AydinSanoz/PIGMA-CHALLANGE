@@ -11,11 +11,12 @@ header {
 }
 
 .navbar-right {
+  margin-right: 20px;
   color: white;
   display: flex;
   flex-flow: row nowrap;
-  width: 15%;
-  justify-content: space-around;
+  width: 25%;
+  justify-content: space-between;
   align-items: center;
 }
 .navbar-right #register {
@@ -23,18 +24,23 @@ header {
 }
 
 .navbar-left {
-  background-image: url("../images/maxresdefault.jpg");
+  background-image: url("./images/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   color: #eeeeee;
   border: 1px solid gray;
   display: flex;
-  width: 7%;
+  width: 15%;
   justify-content: space-around;
   align-items: center;
 }
 
 main {
+  background-image: url(https://picsum.photos/200/300);
   background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: mutiply;
   background-color: #a09a9b;
   display: grid;
@@ -55,7 +61,7 @@ main .title {
 main .advantages {
   background-color: #eeeeee;
   border: 3px solid black;
-  width: 385px;
+  width: 45% px;
   height: max-content;
   justify-self: flex-end;
   margin-right: 30px;

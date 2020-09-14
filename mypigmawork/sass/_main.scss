@@ -1,6 +1,7 @@
 main{
-    // background-image: url(../images/alesiakazantceva.jpg);
+    background-image: url(https://picsum.photos/200/300); 
     background-size: cover;
+    background-repeat: no-repeat;
     background-blend-mode: mutiply;
     // align-content: stretch ;
     background-color: #a09a9b;
@@ -27,7 +28,7 @@ main{
         
         background-color: #eeeeee;
         border: 3px solid black;
-        width: 385px;
+        width: 45%px;
         height: max-content;
         justify-self: flex-end;
         margin-right: 30px;
